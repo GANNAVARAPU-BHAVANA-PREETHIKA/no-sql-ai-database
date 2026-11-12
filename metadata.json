@@ -1,0 +1,5 @@
+{
+  "name": "NoSQL-Sim AI",
+  "description": "An AI-driven interactive simulation of a distributed NoSQL database, featuring consistent hashing, quorum consensus, and failure recovery visualization.",
+  "requestFramePermissions": []
+}
