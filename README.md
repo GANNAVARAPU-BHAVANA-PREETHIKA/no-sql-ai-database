@@ -1,10 +1,6 @@
 # NoSQL Simulator AI
 
-This project now includes:
 
-- A Vite + React frontend simulator
-- A local Express backend in [`server/index.js`](/c:/Users/saira/OneDrive/Documents/snist%20projects/nosql-sim-ai/server/index.js)
-- A Supabase PostgreSQL schema in [`supabase/schema.sql`](/c:/Users/saira/OneDrive/Documents/snist%20projects/nosql-sim-ai/supabase/schema.sql)
 
 ## Local Setup
 
@@ -25,7 +21,7 @@ Prerequisites:
 
 ## Supabase Setup
 
-Create a Supabase project, then run the SQL from [`supabase/schema.sql`](/c:/Users/saira/OneDrive/Documents/snist%20projects/nosql-sim-ai/supabase/schema.sql) in the SQL editor.
+Create a Supabase project, then run the SQL from [`supabase/schema.sql`] in the SQL editor.
 
 Required environment variables:
 
@@ -38,9 +34,9 @@ You can use the anon key for simple demos. For production, review your RLS and k
 
 The backend is implemented as a local Express server. The frontend talks to it through Vite's `/api` proxy during development.
 
-- [`server/index.js`](/c:/Users/saira/OneDrive/Documents/snist%20projects/nosql-sim-ai/server/index.js)
-- [`server/_supabase.js`](/c:/Users/saira/OneDrive/Documents/snist%20projects/nosql-sim-ai/server/_supabase.js)
-- [`server/_utils.js`](/c:/Users/saira/OneDrive/Documents/snist%20projects/nosql-sim-ai/server/_utils.js)
+- [`server/index.js`]
+- [`server/_supabase.js`]
+- [`server/_utils.js`]
 
 ### `POST /api/createNode`
 
